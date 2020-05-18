@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Upload Image</title>
+</head>
+<body>
+    <nav role="navigation">
+        <a href="./landing-page.html">Home</a>
+        <button><a href="./landing-page.html">LogOut</a></button>
+    </nav>
+
+    <main>
+        <div class="sidenav">
+            <a href="./profile-page.html">Profile</a>
+            <a href="./uploadImage-page.html">Upload</a>
+            <a href="#">Red</a>
+            <a href="#">Orange</a>
+            <a href="#">Yellow</a>
+            <a href="#">Green</a>
+            <a href="#">Blue</a>
+            <a href="#">Purple</a>
+            <a href="#">White</a>
+            <a href="#">Grey</a>
+            <a href="#">Black</a>
+        </div>
+        <section>
+        <form class="upload-form">
+            <label for="img">Select image:</label>
+            <input class="upload-input" type="file" id="img" name="img" accept="image/*">
+            <label for="colors">Select a color</label>
+            <select id="colors" multiple>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+                <option value="white">White</option>
+                <option value="Grey">Grey</option>
+                <option value="red">Black</option>
+            </select>
+          </form>
+          <button type="submit">Upload</button>
+        </section>
+        <div class="image-display">
+            <p>Displayed image</p>
+        </div>
+    </main>
+</body>
+</html>

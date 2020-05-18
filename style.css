@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  nav,
+  footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+  
+  .footer-Signup {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: auto
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    font-size: small;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+.account-navigation {
+    z-index: 0;
+}
+
+  header {
+    padding: 45px 15px;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 30px 15px;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  p {
+    margin: 0 auto;
+    max-width: 650px;
+  }
+  
+  p + p {
+    margin-top: 15px;
+  }
+  
+  form {
+      text-align: left;
+      margin-left: 50px;
+  }
+
+
+.upload-form {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login-top-nav-bar {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.login-top-nav-bar > input {
+    max-width: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav > button {
+    margin-left: 5px;
+}
+
+  input, textarea {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+
+  .form-section {
+    margin-bottom: 30px;
+  }
+  
+.slideshow-box {
+    padding-top: 50px;
+    min-height: 40vh;
+}
+
+.color-picker {
+    background-color: #ddd;
+    max-height: 100px;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #aaa; 
+    overflow-x: hidden; 
+    padding-top: 50px;
+
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+  
+ 
+  .sidenav a:hover {
+    color: #000000;
+  }
+  
+  .page-content {
+    margin-left: 160px; 
+    padding-top: 100px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
